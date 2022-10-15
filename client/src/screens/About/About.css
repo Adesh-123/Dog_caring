@@ -1,0 +1,110 @@
+.about {
+  display: flex;
+  margin-top: 110px;
+  flex-direction: column;
+  background-color: #ffebda;
+}
+
+.about-banner {
+  background: url("https://wallpaperset.com/w/full/c/2/a/289467.jpg")
+    no-repeat center center;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 100px;
+}
+
+.about-banner h1 {
+  font-size: 4vw;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  background-color: #6a6662d7;
+  padding: 10px;
+}
+
+.about-us p {
+  font-size: 20px;
+  align-items: center;
+  line-height: 3em;
+  align-content: center;
+  font-weight: bold;
+  color: #2f2f2f;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.about-us {
+  padding: 70px;
+  background-color: #fbfbfb;
+}
+
+@media screen and (max-width: 680px) {
+  .about-us {
+    padding: 60px;
+  }
+  h1.who-we-are {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-us {
+    padding: 40px;
+  }
+
+  .about-us p {
+    margin: 0 25px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 300px) {
+  .about-banner {
+    height: 300px;
+  }
+
+  .about-banner h1 {
+    margin-bottom: 80px;
+  }
+
+  .about-us {
+    padding: 20px;
+  }
+
+  .about-us p {
+    margin: 0 15px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .about-banner h1 {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  .about-us {
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  p {
+    margin: 10px 30px;
+    line-height: 2em;
+    font-size: 15px;
+  }
+
+  .about-banner {
+    margin-bottom: 30px;
+  }
+  h1.who-we-are {
+    left: 0px;
+    margin-bottom: 0px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,82 @@
+.footer-area {
+  position: fixed;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  background-color: #f77b00;
+  z-index: 999;
+}
+
+.linkedin-image {
+  height: 25px;
+  padding: 0px 10px;
+  border-radius: 50%;
+}
+
+.contributors {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+a {
+  font-family: "Luckiest Guy", cursive;
+  text-decoration: none;
+  font-size: 14pt;
+  color: #383838;
+}
+.contributors a:hover {
+  color: #fcf6ed;
+}
+
+.hanna,
+.jason,
+.amar {
+  padding: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-area {
+    margin-top: 100px;
+  }
+  .contributors a {
+    font-size: 13px;
+  }
+  .hanna,
+  .jason,
+  .amar {
+    padding: 0px;
+  }
+  .linkedin-image {
+    height: 15px;
+    padding: 0px 10px;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 360px) and (max-height: 640px) {
+  div.contributors {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 573px) and (max-height: 830px) {
+  .contributors a {
+    font-size: 12pt;
+  }
+  div.contributors {
+    justify-content: center;
+  }
+  .hanna,
+  .jason,
+  .amar {
+    padding: 0;
+  }
+  .linkedin-image {
+    height: 16px;
+  }
+}

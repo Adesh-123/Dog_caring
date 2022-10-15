@@ -1,0 +1,10 @@
+.dog-image {
+  height: 160px;
+  width: 250px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.dog-name {
+  margin: 15px auto;
+}

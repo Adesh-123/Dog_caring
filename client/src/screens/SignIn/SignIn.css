@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,500,700&display=swap");
+
+.sign-in-form-container,
+.sign-in-error {
+  align-self: center;
+  padding: 1em;
+  width: 50%;
+  height: 80%;
+  margin: 150px auto;
+  border: 2px solid #bcb8b1;
+  border-radius: 6px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+  /* transition: all 2s ease; */
+  background-color: #f8d6bc;
+}
+
+.sign-in-form-container .danger,
+.sign-in-error .danger {
+  background: #e57373;
+}
+
+.sign-in-form-container h3,
+.sign-in-error h3 {
+  text-align: center;
+}
+
+.sign-in-form-container form,
+.sign-in-error form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+}
+
+.sign-in-error {
+  animation: shake 0.5s;
+  animation-iteration-count: 4ms;
+}
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+.sign-in-form-container form input,
+.sign-in-error form input {
+  width: 100%;
+  padding: 0.6em 1em;
+  margin: 0.5em auto;
+  font-size: 1rem;
+  border-radius: 3px;
+  border: 2px solid #e0e0e0;
+  outline: none;
+  transition: all 0.4s ease;
+}
+
+.sign-in-form-container form input:focus,
+.sign-in-form-container form input:active,
+.sign-in-error form input:focus,
+.sign-in-error form input:active {
+  border: 2px solid #82ada9;
+}
+
+.sign-in-form-container form input:valid,
+.sign-in-error form input:valid {
+  border: 2px solid #66bb6a;
+}
+
+.sign-in-form-container form button,
+.sign-in-error form button {
+  width: 50%;
+  margin: 1em auto;
+  background: #f77b00;
+  border: none;
+}
+
+.sign-in-form-container form button:hover .sign-in-error form button:hover {
+  box-shadow: 3px 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.sign-in-form-container form a .sign-in-error form a {
+  margin: auto;
+}
+
+.sign-in-form-container form label .sign-in-error form label {
+  margin-top: 0.6em;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: Calc(100vh - 4em);
+}
+
+.layout .content {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  flex: 1;
+}
+
+.layout .content nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0.8 1;
+  z-index: 1000;
+  background: #f8f8f8;
+  box-shadow: inset -10px 8px 10px -6px rgba(0, 0, 0, 0.3);
+}
+
+.layout .content nav a {
+  text-decoration: none;
+  text-align: center;
+  padding: 1em 0;
+  font-size: 1.1rem;
+  width: 100%;
+  color: #333;
+  transition: all 0.4s ease;
+}
+
+.layout .content nav a:hover {
+  background: #616161;
+  color: #f8f8f8;
+}
+
+.layout .content nav a:first-of-type {
+  border-bottom: 2px solid #333;
+}
+
+.layout .content nav a:last-of-type {
+  border-bottom: 2px solid #333;
+}
+
+.layout .content .main {
+  flex: 3 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.layout .content .main .item-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em;
+  grid-template-rows: auto;
+  width: 80%;
+  padding: 2em 0;
+}
+
+.instructions {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.item {
+  border: 2px solid #81b9bf;
+  text-align: center;
+  padding: 1em;
+  border-radius: 3px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+
+.item .buttons {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.item h4 {
+  font-size: 1.2rem;
+}
+
+.item a {
+  text-decoration: none;
+  text-align: center;
+  padding: 1em 0;
+  font-size: 1.1rem;
+  color: #333;
+  transition: all 0.4s ease;
+  width: auto;
+  align-self: flex-start;
+}
+
+.item a:hover {
+  opacity: 0.5;
+}
+
+.item a::before {
+  content: "<-";
+}
+
+.item-container .item {
+  min-width: 200px;
+  min-height: 100px;
+}
+
+.item-container .item button {
+  background: #f77b00;
+  color: #f8f8f8;
+}
+
+.item-container .item button:hover {
+  background: #f77b00;
+  color: #333;
+}
+
+.danger {
+  background: #e57373;
+}
+
+.error {
+  text-align: center;
+  color: #e57373;
+  font-size: 1.1rem;
+}
+
+.edit {
+  background: #b2dfdb;
+}
+
+.edit:hover {
+  background: #82ada9;
+}
+
+.danger:hover {
+  color: #f8f8f8;
+  background: #af4448;
+}
+
+.alert {
+  width: 400px;
+  height: 200px;
+  border-radius: 3px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin: 0 auto;
+  transform: translateX(-50%);
+}
+
+.alert h3 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  align-self: flex-end;
+  margin-top: 5px;
+  margin-right: 0.5em;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.alert h3:hover {
+  color: #f8f8f8;
+}
+
+.alert p {
+  color: #388e3c;
+  width: 80%;
+  margin: auto;
+  align-self: center;
+  text-align: center;
+  flex: 2;
+}
+
+.hide {
+  transform: translate(-50%, 200%);
+}
+
+.show {
+  transform: translate(-50%, -10%);
+}
+
+.success {
+  background: #dcedc8;
+}
+
+.success h3:hover {
+  color: #333;
+  opacity: 0.6;
+}
+
+.landing .container {
+  text-align: center;
+}
+
+.landing .main .item-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em;
+  grid-template-rows: auto;
+  width: 80%;
+  margin: 4em auto;
+}
+
+.sign-up-button {
+  font-family: "Montserrat";
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  background-color: #f77b00;
+  padding-top: 15px;
+  font-family: "Luckiest Guy", cursive;
+}
+button {
+  font-family: "Luckiest Guy", cursive;
+  padding: 10px;
+  padding-top: 15px;
+  background-color: #f77b00;
+}
+
+.sign-up-button:hover {
+  box-shadow: 3px 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.password-error {
+  color: red;
+  text-align: center;
+}
+
+.email-error {
+  color: red;
+  text-align: center;
+}
+
+.sign-in-error {
+  align-self: center;
+  padding: 1em;
+  width: 50%;
+  height: 80%;
+  margin-top: 150px;
+  border: 2px solid #bcb8b1;
+  border-radius: 6px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+  /* transition: all 2s ease; */
+  background-color: #f8d6bc;
+}
+
+@media screen and (max-width: 890px) {
+  .sign-in-form-container,
+  .sign-in-error {
+    margin-top: 250px;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .sign-in-form-container form input,
+  .sign-in-error form input {
+    width: 90%;
+  }
+}
