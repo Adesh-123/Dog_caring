@@ -20,12 +20,12 @@
 }
 .each-dog {
   border-radius: 25px;
-  border: 2px solid black;
+  border: 2px solid rgb(255, 255, 255);
   padding: 15px 15px;
   margin: 15px 45px;
   min-width: fit-content;
   align-items: center;
-  background-color: #f8d6bc;
+  background-color: #000000;
 }
 
 .each-dog:hover {

@@ -9,7 +9,7 @@ function Home(props) {
       <div className="home-banner-image">
         <img
           className="banner"
-          src="https://images.unsplash.com/photo-1601758176175-45914394491c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+          src="https://media.istockphoto.com/photos/happy-man-training-with-his-dog-in-the-nature-picture-id1344938288?b=1&k=20&m=1344938288&s=170667a&w=0&h=WclRPHs4JmUyZ-Fj5hYnWxeZfU12awWieZQiVAYsEIw="
           alt="banner"
         />
         <div className="headliner">Every Dog Deserves a Home.</div>

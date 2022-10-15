@@ -31,12 +31,17 @@
 
 .adopt-buttons button {
   width: fit-content;
-  background-color: #f77b00;
+  background-color: #db7575;
+  border-radius: 10px;
   font-family: "Montserrat";
   color: white;
   font-size: 15pt;
   border: none;
   padding: 10px;
+}
+.adopt-buttons button:hover {
+  background-color: #592424;
+  cursor: pointer;
 }
 
 .adopt-buttons a {

@@ -58,7 +58,7 @@ const DogCreate = (props) => {
 
   return (
     <div className="create-container">
-      <h3>List a Dog for Adoption</h3>
+      <h2>List a Dog for Adoption</h2>
       <form className="create-form" onSubmit={handleSubmit}>
         <input
           className="input-name"
@@ -104,6 +104,7 @@ const DogCreate = (props) => {
         />
 
         <select
+          style={{backgroundColor:"Black",color:"white"}}
           className="breed-select"
           value={dog.breed}
           name="breed"

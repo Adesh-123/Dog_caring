@@ -9,7 +9,7 @@ function Donate(props) {
       <div className="donate-image">
         <img
           className="donate-banner"
-          src="https://images.unsplash.com/photo-1592951117908-4acda89ee817?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+          src="https://content.active.com/Assets/Active.com+Content+Site+Digital+Assets/Article+Image+Update/2017/Dec+12/Man+Sitting+With+His+Dog-Article.jpg"
           alt="donate banner"
         />
 

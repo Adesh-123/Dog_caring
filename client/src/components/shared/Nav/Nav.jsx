@@ -30,6 +30,9 @@ const unauthenticatedOptions = (
 
 const alwaysOptions = (
   <>
+    <NavLink className="link" to="/">
+      Home
+    </NavLink>
     <NavLink className="link" to="/dogs">
       Dogs
     </NavLink>

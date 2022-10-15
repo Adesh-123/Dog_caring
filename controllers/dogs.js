@@ -6,7 +6,6 @@ db.on("error", console.error.bind(console, "MongoDB connection error:"));
 const getDogs = async (req, res) => {
   try {
     const dogs = await Dog.find();
-    console.log(dogs);
     res.json(dogs);
   } catch (error) {
     res.status(500).json({ error: error.message });

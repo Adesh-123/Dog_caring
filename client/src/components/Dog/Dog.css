@@ -1,3 +1,6 @@
+.entire-dog-container:hover{
+  color: black;
+}
 .dog-image {
   height: 160px;
   width: 250px;

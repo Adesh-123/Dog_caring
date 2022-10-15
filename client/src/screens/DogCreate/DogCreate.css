@@ -7,10 +7,10 @@
   border: 2px solid #bcb8b1;
   border-radius: 6px;
   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
-  background-color: #f8d6bc;
+  background-color: #928c88;
 }
 
-.create-container h3 {
+.create-container h2 {
   text-align: center;
 }
 
@@ -26,12 +26,16 @@
 .create-form input,
 .create-form textarea {
   width: 60%;
+  background-color: black;
+  color:white;
+  border: rgb(243, 243, 41);
 }
 
 .submit-button {
-  width: 50%;
+  width: 30%;
   margin: 1em auto;
-  background: #f77b00;
+  background: #7272ae;
+  border-radius: 10px;
   border: none;
   padding: 5px;
   padding-top: 10px;
@@ -40,6 +44,8 @@
 
 .submit-button:hover {
   box-shadow: 3px 8px 16px rgba(0, 0, 0, 0.5);
+  background-color: #1515e0;
+  cursor: pointer;
 }
 
 .input-image-link {
