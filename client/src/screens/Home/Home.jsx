@@ -16,12 +16,7 @@ function Home(props) {
       </div>
       <div className="brand-statement">
         <div className="statement">
-          The Dog Spot is an online organization based in San Diego, California
-          where our mission is to give every dog a second chance in life.
-          We strive to find loving homes for homeless and abandoned dogs
-          both by promoting adopting animals from local animal shelters and by
-          partnering with animal placement organizations. Feel free to check out the available dogs or add a dog ready to be adopted to our
-          site.
+        The dog spot is a project whose motivation is to give every dog a second chance. We strive to find loving homes for homeless and abandoned dogs by promoting adopting animals from local animal shelters across India and partnering with animal placement organizations. Here, feel free to check available dogs or add a ready to be adopted to our site. 
         </div>
       </div>
       <div className="carousel">

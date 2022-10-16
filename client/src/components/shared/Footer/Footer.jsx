@@ -1,5 +1,4 @@
 import "./Footer.css";
-import linkedin from "../../../images/linkedin-3-24.png";
 
 function Footer(props) {
   return (

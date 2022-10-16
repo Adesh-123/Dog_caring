@@ -2,6 +2,7 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const User = require("../models/user");
 const db = require("../db/connection");
+require('dotenv').config();
 
 db.on("error", console.error.bind(console, "MongoDB connection error:"));
 
@@ -45,6 +46,7 @@ const signIn = async (req, res) => {
     const { email, password } = req.body;
 
     const user = await User.findOne({ email: email });
+    // console.log(await bcrypt.compare(password, user.password_digest));
     if (await bcrypt.compare(password, user.password_digest)) {
       const payload = {
         name: user.name,
@@ -52,7 +54,6 @@ const signIn = async (req, res) => {
       };
       
       const token = jwt.sign(payload, TOKEN_KEY);
-      // console.log(token);
       res.status(201).json({ token });
     } else {
       res.status(401).send("Invalid Credentials");

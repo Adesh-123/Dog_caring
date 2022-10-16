@@ -140,9 +140,14 @@
 
 .sign-in-button {
   width: fit-content;
-  background-color: #f77b00;
+  background-color: #675646;
   font-family: "Luckiest Guy", cursive;
   padding: 10px;
+}
+
+.sign-in-button:hover {
+  cursor: pointer;
+  background-color: #3a3a3a;
 }
 
 @media screen and (max-width: 600px) {

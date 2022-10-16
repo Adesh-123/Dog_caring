@@ -55,7 +55,7 @@ const Nav = ({ user }) => {
     <nav>
       <div className="nav">
         <NavLink className="logo" to="/">
-          THE DOG SPOT
+          Love Those Pets
           {paw}
         </NavLink>
         <div className="links">

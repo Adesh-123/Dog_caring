@@ -89,6 +89,7 @@ const SignIn = (props) => {
         />
         <label>Password</label>
         <input
+          style={{color:"white"}}
           className="sign-in-input"
           required
           name="password"
