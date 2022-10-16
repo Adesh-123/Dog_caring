@@ -1,4 +1,5 @@
 .DS_Store
 node_modules
 client/node_modules
+food_guide/node_modules
 .env
