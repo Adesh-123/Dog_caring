@@ -1,0 +1,104 @@
+.page-head{
+    color: #1e06f5;
+    text-shadow: 1px 1px 0px #404040;
+}
+
+.cbcol{
+    padding-top: 20px;
+    min-width: min-content;
+}
+
+.clrow{
+    color: #807e7e;
+    background-color: beige;
+    min-height:70px;
+    font-size: 14px;
+}
+.clred{
+    color: rgb(243, 59, 59);
+}
+
+.btnnav{
+    margin-top: 15px;
+    margin-bottom: 15px;
+} 
+.btn{
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.tbl-main-btn{
+    margin: 15px 45px;
+    width: 50px; 
+    height: 20px;
+    
+    text-align: center; 
+    font-weight: bold; 
+    font-family: helvetica, arial; 
+    color: white; 
+    font-size: 14px;
+    text-shadow: 1px 1px 1px black; 
+    
+    background: -moz-linear-gradient(top,  #ffcc99 0%, #de9b86 0%, #ffcc99 100%, #de9b86 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ffcc99 0%,#de9b86 0%,#ffcc99 100%,#de9b86 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ffcc99 0%,#de9b86 0%,#ffcc99 100%,#de9b86 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc99', endColorstr='#de9b86',GradientType=0 ); /* IE6-9 */
+  
+    border: 1px solid #DE9B86; 
+    border-top: 1px solid #FFCC99; 
+    
+    -moz-border-radius: 7px; 
+    -webkit-border-radius: 7px; 
+    border-radius: 7px;
+    
+    -moz-box-shadow: 0 1px 3px #783621; 
+    -webkit-box-shadow: 0 1px 3px #783621; 
+    box-shadow: 0 1px 3px #783621; 
+}
+
+.tbl-main-btn:active { 
+    -moz-box-shadow: 0 2px 6px #783621; 
+    -webkit-box-shadow: 0 2px 6px #783621; 
+    box-shadow: 0 2px 6px #783621; 
+} 
+
+.div-mantu{
+    background-color: #dbf110;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size:12px;
+    font-weight:normal;
+    color: #333333;
+    margin: 5px;
+    min-width: min-content;
+}
+
+.div-other{
+    background-color: #99CC00;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size:12px;
+    font-weight:normal;
+    color: #333333;
+    margin: 5px;
+    min-width: min-content;
+}
+
+.div-gr{
+  background-color: #00c5cc;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size:12px;
+  font-weight:normal;
+  color: #333333;
+  margin: 5px;
+  min-width: min-content;
+}
+
+.div-bcz{
+    background-color: brown;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size:12px;
+    font-weight:normal;
+    color: #333333;
+    margin: 5px;
+    min-width: min-content;
+}
+
