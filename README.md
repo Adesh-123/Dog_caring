@@ -25,7 +25,7 @@ Our project provides the following functionality
 - Tested features before merging
 - Continuous commits to keep track of the progress
 
-|![GitHub PR's](https://github.com/Adesh-123/Love-Those-pets/blob/main/pr.jpg)| ![Branches - Network Graph](https://github.com/Adesh-123/Love-Those-pets/blob/main/network%20graph.jpg)
+|![GitHub PR's](https://i.redd.it/fk8qh68sx5u91.jpg)| ![Branches - Network Graph](https://i.redd.it/8ao0doemx5u91.jpg)
 |-|-|
 | PR Merged  | Branch History |
 
