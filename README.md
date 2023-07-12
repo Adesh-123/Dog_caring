@@ -44,7 +44,7 @@ Going from Idea to website to full implementation & Integration of features in a
 ## What we learned
 Learnt to work with new technologies within such a short time and our first experience with MongoDB
 
-## What's next for News Dribble
+## What's next for Love Those Pets
 - Adding a blog site for dog care guide
 - Adding breed specific details
 - Providing more options to donate
