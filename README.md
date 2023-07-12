@@ -1,4 +1,4 @@
-# Love The Pets
+# Love Those Pets
 Beagle Hacks Project
 
 ## Inspiration
